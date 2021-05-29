@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #2563EB;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.navigation .nav-brand-name {
+    font-weight: bold;
+    color: white;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
