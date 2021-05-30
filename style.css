@@ -7,10 +7,16 @@ body {
 :root {
     --primary-color: #2563EB;
     --gray: #6B7280;
+    --off-white: #F3F4F6;
 }
 
 .container {
     padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
 }
 
 .list-non-bullet {
@@ -23,13 +29,25 @@ body {
 
 .link {
     text-decoration: none;
-    padding: 0rem 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
 
 .navigation .nav-brand-name {
     font-weight: bold;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .navigation {
@@ -51,15 +69,13 @@ body {
 }
 
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
+    padding: 2.7rem;
 }
 
 .hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
-    border-bottom-right-radius: 3rem;
 }
 
 .hero .hero-heading {
@@ -70,4 +86,36 @@ body {
 
 .hero .hero-inverted {
     color: var(--primary-color);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+.footer {
+    padding: 4rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+
+.footer-heading {
+    font-weight: bold;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .link {
+    color: white;
 }
