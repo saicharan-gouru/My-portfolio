@@ -6,6 +6,7 @@ body {
 
 :root {
     --primary-color: #2563EB;
+    --gray: #6B7280;
 }
 
 .container {
@@ -47,4 +48,26 @@ body {
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    border-bottom-right-radius: 3rem;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--gray);
+}
+
+.hero .hero-inverted {
+    color: var(--primary-color);
 }
