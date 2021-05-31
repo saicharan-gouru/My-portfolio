@@ -66,6 +66,7 @@ body {
 
 .navigation .link-active {
     font-weight: bold;
+    color: gold;
 }
 
 .hero {
@@ -118,4 +119,8 @@ body {
 
 .footer .link {
     color: white;
+}
+
+.space {
+    padding-top: 3rem;
 }
