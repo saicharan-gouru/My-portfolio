@@ -113,7 +113,7 @@ body {
     font-weight: bold;
 }
 
-.footer ul {
+ul {
     padding-inline-start: 0px;
 }
 
@@ -122,5 +122,5 @@ body {
 }
 
 .space {
-    padding: 2rem 3rem;
+    padding: 3rem;
 }
