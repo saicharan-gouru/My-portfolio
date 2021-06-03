@@ -133,13 +133,14 @@ ul {
     padding: 2rem 0rem;
 }
 
-.form {
-    text-align: center;
-    border: 1px solid black;
-}
-
 .form-container {
     padding: 3rem;
     max-width: 400px;
     margin: auto;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+    .form iframe {
+        width: 100%;
+    }
 }
