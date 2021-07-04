@@ -7,3 +7,5 @@ In this repository I have designed a basic portfolio website using Html,CSS and 
 
 To read more about this, read the blog I have written on this website [click here](https://dev.to/saicharangouru/my-own-portfolio-website-my-first-blog-5an0)
 
+![screeenshot](images/screenshot.PNG)
+
