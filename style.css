@@ -148,8 +148,10 @@ ul {
 .space:hover {
     border: 3px solid cornflowerblue;
     font-size: 120%;
+    border-radius: 0.5rem;
 }
 
 .list-item-inline:hover {
     border: 3px solid cornflowerblue;
+    border-radius: 0.5rem;
 }
