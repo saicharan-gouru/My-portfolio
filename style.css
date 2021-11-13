@@ -29,7 +29,7 @@ body {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
 }
 
 .primary-link {
@@ -143,4 +143,13 @@ ul {
     .form iframe {
         width: 100%;
     }
+}
+
+.space:hover {
+    border: 3px solid cornflowerblue;
+    font-size: 120%;
+}
+
+.list-item-inline:hover {
+    border: 3px solid cornflowerblue;
 }
