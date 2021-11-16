@@ -143,6 +143,12 @@ ul {
     .form iframe {
         width: 100%;
     }
+    .link {
+        padding: 0.3rem;
+    }
+    .hero .hero-img {
+        width: 100%;
+    }
 }
 
 .space:hover {
