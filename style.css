@@ -107,6 +107,8 @@ body {
     color: white;
     text-align: center;
     border-top-right-radius: 1rem;
+    position: fixed;
+    bottom: 0;
 }
 
 .footer-heading {
