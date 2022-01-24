@@ -155,9 +155,11 @@ ul {
     border: 3px solid cornflowerblue;
     font-size: 120%;
     border-radius: 0.5rem;
+    background-color: rgb(255, 248, 248);
 }
 
 .list-item-inline:hover {
     color: yellow;
-    font-weight: bold;
+    border-bottom: 2px solid yellow;
+    padding-bottom: 1rem;
 }
