@@ -79,13 +79,13 @@ body {
     margin: auto;
 }
 
-.hero .hero-heading {
+.hero-heading {
     text-align: center;
     padding-top: 1rem;
     color: var(--gray);
 }
 
-.hero .hero-inverted {
+.hero-inverted {
     color: var(--primary-color);
 }
 
@@ -123,6 +123,8 @@ ul {
 
 .space {
     padding: 3rem;
+    transition-property: font-size;
+    transition-duration: 1s;
 }
 
 .profile-img {
